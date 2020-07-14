@@ -8,16 +8,73 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  line-height: 25px;
+  line-height: 66px;
+  color: white;
+
+  position: relative;
 }
 
 .header-top-background img{
   height: 12px;
   margin-right: 116px;
-  margin-top: 15px;
 }
 
 #lista li{
   list-style: none;
+  display: inline-block;
+  text-align: right;
+  margin-right: 39px;
+}
+
+#lista li a{
   text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px black;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+#lista li:last-child{
+  margin-right: 0px;
+}
+
+.col-lg-2 a{
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 2px black;
+  margin-right: 15px;
+  border-right: 1px solid #9b9b9b;
+  border-left: 1px solid #9b9b9b;
+  padding: 2px 5px;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+
+  background-color: black;
+  padding: 10px 20px;
+
+}
+
+.col-lg-2 p{
+  font-size: 10px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 2px black;
+
+  display: inline-block;
+}
+
+.col-lg-2{
+  text-align: left;
+}
+
+.btn{
   display: inline-block;
 }
