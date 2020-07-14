@@ -78,3 +78,27 @@ body{
 .btn{
   display: inline-block;
 }
+
+.central-banner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.central-banner img{
+  height: 50px;
+}
+
+.central-banner h1{
+  font-size: 40px;
+}
+
+.central-banner p{
+  font-weight: lighter;
+}
+
+.central-banner img{
+  margin-right: 30px;
+  margin-top: 10px;
+}
