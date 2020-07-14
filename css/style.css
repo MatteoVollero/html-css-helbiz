@@ -102,3 +102,91 @@ body{
   margin-right: 30px;
   margin-top: 10px;
 }
+
+#logo{
+  height: 20px;
+  margin-top: 100px;
+}
+
+#color{
+  background-color: #fafafa;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+#color:last-child{
+  margin-left: 30px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#color p{
+  font-weight: lighter;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#color a {
+  margin-bottom: 2.5rem;
+
+  text-decoration: none;
+  color: #0070d4;
+}
+
+#go{
+  width: 480px;
+  height: 379px;
+}
+
+.main-hero{
+  position: relative;
+  background-image: url(https://helbiz.com/_nuxt/img/index-banner.1f6fd0a.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.main-hero img{
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-45%,-45%);
+}
+
+#phone-title{
+  font-size: 33px;
+}
+
+#margin-correzione{
+  margin-left: 240px;
+  line-height: 40px;
+}
+
+#margin-correzione p{
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 993px){
+  .header-top-background .col-lg-6 , .col-lg-2{
+    display: none;
+  }
+
+  .header-top-background h1{
+    font-size: 30px;
+  }
+
+  .header-top-background p{
+    font-size: 14px;
+  }
+
+  .header-top-background .central-banner img{
+    height: 30px;
+  }
+
+  .header-top-background .col-md-1 i{
+    display: block;
+  }
+
+}
