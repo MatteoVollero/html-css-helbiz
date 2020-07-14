@@ -1,0 +1,23 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header-top-background{
+  height: 640px;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.header-top-background img{
+  height: 12px;
+  margin-right: 116px;
+  margin-top: 15px;
+}
+
+#lista li{
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
